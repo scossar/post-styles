@@ -1,0 +1,199 @@
+$post-margin: 14px;
+
+// one-quarter
+// ==============
+
+.one-quarter {
+  width: calc(25% - (3/4 * #{$post-margin}));;
+  float: left;
+  margin-right: $post-margin;
+}
+
+.one-quarter.right {
+  float: right;
+  margin-right: 0;
+  margin-left: $post-margin;
+}
+
+.one-quarter.end-of-row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.one-quarter.right.end-of-row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+// one-third
+// ==============
+
+.one-third {
+  width: calc(33.3333% - (2/3 * #{$post-margin}));
+  float: left;
+  margin-right: $post-margin;
+}
+
+.one-third.right {
+  float: right;
+  margin-right: 0;
+  margin-left: $post-margin;
+}
+
+.one-third.end-of-row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.one-third.right.end-of-row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+// one-half
+// ==================
+
+.one-half {
+  width: calc(50% - (1/2 * #{$post-margin}));
+  float: left;
+  margin-right: $post-margin;
+}
+
+.one-half.right {
+  float: right;
+  margin-right: 0;
+  margin-left: $post-margin;
+}
+
+.one-half.end-of-row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.one-half.right.end-of-row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+// two thirds
+// ==================
+
+.two-thirds {
+  width: calc(66.6666% - (1/3 * #{$post-margin}));
+  float: left;
+  margin-right: $post-margin;
+}
+
+.two-thirds.right {
+  float: right;
+  margin-right: 0;
+  margin-left: $post-margin;
+}
+
+.two-thirds.end-of-row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.two-thirds.right.end-of-row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+// three quarters
+// ==================
+
+.three-quarters {
+  width: calc(75% - (1/4 * #{$post-margin}));
+  float: left;
+  margin-right: $post-margin;
+}
+
+.three-quarters.right {
+  float: right;
+  margin-right: 0;
+  margin-left: $post-margin;
+}
+
+.three-quarters.end-of-row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.three-quarters.right.end-of-row {
+  margin-left: 0;
+  margin-right:0;
+}
+
+
+// element styles
+// ===================
+
+.cooked div.poll {
+  width: 100%;
+  max-width: 500px;
+}
+
+.cooked {
+  box-sizing: border-box;
+  @include clearfix;
+}
+
+.cooked *,
+.cooked *:before,
+.cooked *:after {
+  box-sizing: inherit;
+}
+
+.cooked p {
+  margin-top: 0;
+}
+
+.cooked hr {
+  clear: both;
+}
+
+.cooked .clear {
+  clear: both;
+  background: #fff; // Change this to the bg color variable
+  margin: 0;
+  height: 0;
+  border: none;
+}
+
+figure {
+  width: 100%;
+  margin: 0 0 $post-margin 0;
+}
+
+.post-menu-area {
+  clear: both;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+}
+
+figcaption {
+  margin-top: 7px;
+  font-size: 0.8889em;
+  font-weight: bold;
+}
+
+// mobile-view
+// ====================
+.mobile-view {
+  .one-quarter,
+  .one-third,
+  .one-half,
+  .two-thirds,
+  .three-quarters {
+    width: 100%;
+  }
+  .cooked img:not(.thumbnail) {
+    max-width: 100%;
+    max-height: none;
+    height: auto;
+  }
+}
