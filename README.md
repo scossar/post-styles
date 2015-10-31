@@ -3,11 +3,6 @@
 This plugin allows the user to add css classes to Discourse post content. The styles
 add layout rules to `figure` and `div` tags.
 
-
-![alt tag](https://cloud.githubusercontent.com/assets/2975917/10866203/683837a2-7fe2-11e5-855b-5b764e57c289.png)
-
-![alt tag](https://cloud.githubusercontent.com/assets/2975917/10866204/6e679604-7fe2-11e5-934e-bb123320d4ff.png)
-
 ## Installation
 
 Follow the [Install a Plugin](https://meta.discourse.org/t/install-a-plugin/19157) howto, using
