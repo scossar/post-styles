@@ -43,14 +43,14 @@ changed soon.
 ![alt tag](https://cloud.githubusercontent.com/assets/2975917/10866422/78152604-7feb-11e5-9e42-296009437e97.png)
 
 This layout is created by adding the classes `one-half right` to the image's `figure` tag.
-Here is the markup for the post's image. This was created by, first uploading the desired
-image, and then adding `class="one-half right"` to the image's `figure` tag. The
-image's caption has also been added to the tag by inserting the text for it between the
-`<figcaption></figcaption>` tags.
-
+Here is the markup for the post's image:
 ```
 <figure class="one-half right"><img src="/uploads/default/original/1X/80503427f92690168e9dfa531e0025d85411a39f.jpg" width="408" height="500"><figcaption>Stormy night</figcaption></figure>
 ```
+This was created by, first uploading the desired image, and then adding `class="one-half right"` to the image's `figure` tag. The
+image's caption has also been added to the tag by inserting the text for it between the
+`<figcaption></figcaption>` tags.
+
 ### Floated images with contained text
 
 ![alt tag](https://cloud.githubusercontent.com/assets/2975917/10866423/7fb33bbc-7feb-11e5-96bf-36d01c2841d6.png)
