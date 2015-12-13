@@ -13,7 +13,8 @@ forum.
 
 ## Use
 
-The plugin wraps uploaded images in `figure` tags. Classes may be added to `div` and 
+The plugin allows uploaded images to be wrapped with `figure` tags. Images wrapped
+with figure tags will span 100% of the figure's width. Classes may be added to `div` and 
 `figure` tags to give them a width and a float direction.
 
 Here is a list of the available classes and what they do:

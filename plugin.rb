@@ -5,5 +5,4 @@
 # url: https://github.com/scossar/post-styles
 
 register_asset 'javascripts/post-styles-whitelist.js', :server_side
-register_asset 'javascripts/lib/utilities.js', :server_side
 register_asset 'stylesheets/post-styles.scss'
