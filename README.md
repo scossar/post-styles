@@ -1,3 +1,5 @@
+This plugin is no longer supported, use https://github.com/scossar/discourse-grid instead
+
 # Discourse post styles
 
 This plugin allows the user to add css classes to Discourse post content. The styles
